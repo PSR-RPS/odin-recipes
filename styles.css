@@ -1,3 +1,8 @@
+/*
+body{
+    background-color: #D3CEDF;
+} */
+
 h1{
     text-align: center;
     background-color: #F2D7D9;
@@ -5,8 +10,26 @@ h1{
     color: #495C83;
 }
 
+h2{
+    color: #495C83;
+    background-color: #F2D7D9;
+}
+
 .recipeindex{
     font-family: "Verdana",monospace;
     font-size: 16px;
     color: #495C83;
+}
+
+.recipe-desc,.recipe-ing,.recipe-steps{
+    font-family: "Verdana",monospace;
+}
+
+.recipe-ing ul{
+    font-weight: 600;
+    font-family: "Trebuchet MS",monospace;
+}
+
+.recipe-desc h2{
+    text-align: center;
 }
